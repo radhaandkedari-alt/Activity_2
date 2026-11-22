@@ -4,7 +4,7 @@ from datetime import date
 
 # Create Window
 root = Tk()
-root.title('Getting Started with Widgets')
+root.title('Happy Birthday')
 root.geometry('400x300')
 
 # Add widgets
@@ -23,8 +23,8 @@ def display():
 	# Declaring a global variable 
 	# to make it accessible anywhere in the program
 	global message
-	message = "Welcome to the Application! \nToday's date is: "
-	greet = "Hello "+name+"\n"
+	message = "Welcome! \nToday's date is: "
+	greet = "Happy Birthday "+name+"\n"
 	# Display details in a text box
 	# Specify where to add the details inside the text box
 	text_box.insert(END, greet)
